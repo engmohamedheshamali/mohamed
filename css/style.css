@@ -1,0 +1,127 @@
+                                     /* style of padge sign in */
+.main1{
+    background:#e9ebee; 
+    
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      padding: 30px 0; 
+      
+
+    
+}
+                           /*  the style of img */
+.facebook{
+    padding: 24px 0 16px 0;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #1c1e21;
+    
+} 
+                             /* form design */
+.form1{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+         margin: auto;
+    padding: 0 0 14px 0; 
+      width: 396px;        
+}
+                 
+.header1{
+     font-size: 12px;   
+     display: flex;
+     justify-content: center;
+    font-family:'Times New Roman', Times, serif;
+
+     
+}
+.loginform {
+    text-align: center;
+    color: #1c1e21;
+   
+}
+.inp1{
+    /* width: 364px; */
+    border: 1px solid #dddfe2;
+    padding: 6px 0;
+    font-size: 5px;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+     width: 330px;
+     
+    
+}
+    /* height:40px; */
+
+.inp2{
+    text-align: center;
+    font-size: 12px;
+    color: #fffcfc;
+    background-color:#1877f2 ;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 364px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.link1{
+    color: #1877f2;
+    font-size: 14px ;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+     text-decoration: none;         
+     /* part javascript */
+}
+.link2{
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #42b72a;
+    border-color: #42b72a;
+    font-family: inherit;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/**************************** style of padge sign up******************************/
+
+
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

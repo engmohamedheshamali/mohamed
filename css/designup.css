@@ -1,0 +1,298 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      padding: 30px 0; 
+}
+.header1{
+    font-size: 12px;   
+    display: flex;
+    justify-content: center;
+   font-family:'Times New Roman', Times, serif;
+}   
+
+.div4{
+    padding-top: 5px;
+    display: block;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);    
+    font-family: inherit;
+    padding: 10px;
+
+}
+.div3{
+     min-height: 640px;
+     display: inline;
+     font-size: 12px;
+}
+.header2{
+    /* margin: 0 auto 30px auto; */
+     padding: 0 20px 0 0; 
+    width: 410px;
+    /* background-color: #42b72a; */
+}
+.mainhead{
+    justify-content: center;
+    text-align: center;
+    margin:2px;
+
+    background-color: #fff;
+    border-radius: 8px 8px 0 0;
+    box-sizing: border-box;
+    padding: 10px 16px;
+    position: relative;
+    width: 425px;
+    z-index: 1;
+    
+
+}
+.h2{
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    color: #1c1e21;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+     margin-bottom: 0; 
+    font-weight: 600;
+}
+.dform{
+    /* background-color: aqua; */
+   
+    box-sizing: border-box;
+    /* padding: 16px;  */
+    position: relative; 
+    width: 432px;
+
+    
+}
+hr.solid {
+    border: 1px solid #bbb;
+   width: 425px;
+   margin-right: 5px;
+   
+  }
+.h5{
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #606770;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+
+}  
+.inp3{
+      display:flex; 
+     justify-content: space-around;
+     min-height: 50px; 
+
+      width:430px;     
+     /* height: 100% */
+    
+}
+.inp31{
+     border: 1px solid #bbb;
+    border-radius: 8px;   
+    line-height: 16px;
+    font-size: 15px;
+    margin-top:2px ; 
+    padding-left: 5px;
+    height: 40px; 
+}
+.inp41{
+    display: inline-block;
+    position: relative;
+    
+    /* background-color: #606770;
+    height: 100%; */
+}
+ .inp411{
+    position: relative;
+    border: 1px solid #bbb;
+    background: white;
+    border-radius: 8px;
+    width: 390px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    padding: 12px; 
+    margin-left: 5px;
+    margin-top: 15px;
+
+   
+ }
+.inp4{
+    display: inline-block;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+     /* margin-bottom: 10px;
+    margin-left: 6px;  */
+}
+.inp14{
+     position: relative;
+    border: 1px solid #bbb;
+    background: white;
+    border-radius: 8px;
+    width: 390px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    padding: 12px;    
+}
+                                   /* main div of select birth date */
+.birth{
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-left: 5px;
+    margin-bottom:10px;
+
+    
+}
+.bdate{
+    display: flex;
+    justify-content: space-around; 
+    height:100%    
+}
+.dselect{
+    border-radius: 4px;
+    color: #1c1e21;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+    width: 125px;
+    border: 1px solid #ccd0d5;
+    margin-bottom:10px;
+}                          
+                                                /* parent div for radio */
+.tgender{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -8px -6px -6px;
+    width: 411px;
+    margin-left: 5px;
+}
+                                         /* the radio input div */
+.tg1{
+    background-color: #fff;
+    border: 1px solid #ccd0d5;
+    box-sizing: border-box;
+    display: inline-block;
+    flex: 1 0 auto;
+    font-weight: normal;
+    height: 36px;
+    margin: 8px 6px 6px;
+    padding: 0;
+    position: relative;
+    width: auto;
+    border-radius: 4px;
+}
+.tg11{
+    box-sizing: border-box;
+    color: #1c1e21;
+    display: inline-block;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 36px;
+    padding: 0 28px 0 10px;
+    width: 100%;
+}
+                                                    /* radio option style */
+.radio{
+    height: 36px;
+    margin: 0;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}                               
+
+                                                    /* the breif of website */
+.breif{
+    width: 399px;
+    display: block;
+    margin-left:10px;
+}
+.b1{
+    width: auto;
+    color: #777;
+    font-size: 11px;
+    margin: 1em 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.learn{
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;    
+}
+.breif2{
+    width: 399px;
+    display: block;
+}
+.b2{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    width: auto;
+    color: #777;
+    font-size: 11px;
+    margin-left: 8px;
+}
+                                                      /* button sign up */
+.signup{
+    text-align: center;
+    display: block;
+}
+.su{
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    background: none;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 32px;
+    text-shadow: none;
+    margin-bottom: 0;
+    line-height: 126%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-width: 194px;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+                                                 /* link back to sign in padge */
+.link3{
+    padding: 10px 0;
+    position: relative;
+    text-align: center;
+    
+    
+}
+.l3{
+    color: #1877f2;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+}
